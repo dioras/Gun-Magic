@@ -1,0 +1,248 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b5344516de8410489d5dd5164a182e8, type: 3}
+  m_Name: ShopCollectionPortalTextures
+  m_EditorClassIdentifier: 
+  Id: 0
+  Label: Portals
+  StartPrice: 1000
+  Increase: 200
+  ItemCountInCategory: 9
+  CategoryNames:
+  - Common
+  - Rare
+  Products:
+  - Name: Portal 0
+    Locked: 0
+    Icon:
+      m_AssetGUID: 91d61ebab9b9166468c2fae804ed3493
+      m_SubObjectName: Portal_0
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_EditorAssetChanged: 0
+    Entity:
+      m_AssetGUID: 91786576731c55b4b997db146f237262
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - Name: Portal 1
+    Locked: 1
+    Icon:
+      m_AssetGUID: 4aae9110d00e77249a88b1c773a1580e
+      m_SubObjectName: 
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_EditorAssetChanged: 0
+    Entity:
+      m_AssetGUID: d1d4cac89b8a1014fa4b7a14215c8735
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - Name: Portal 2
+    Locked: 1
+    Icon:
+      m_AssetGUID: 62cd724b989996b4992de7083fd5d4b1
+      m_SubObjectName: 
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_EditorAssetChanged: 0
+    Entity:
+      m_AssetGUID: 3275def039771b8448d645bb956658c1
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - Name: Portal 3
+    Locked: 1
+    Icon:
+      m_AssetGUID: ddc2c35d53f12d04f9ea5d99879c540a
+      m_SubObjectName: 
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_EditorAssetChanged: 0
+    Entity:
+      m_AssetGUID: c6bdb0b1563460f479aa49de560bb4fd
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - Name: Portal 4
+    Locked: 1
+    Icon:
+      m_AssetGUID: 0f0f32cb4f56cb8449d3590f51f786da
+      m_SubObjectName: 
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_EditorAssetChanged: 0
+    Entity:
+      m_AssetGUID: 97c3eb1e77cecd3429dddf355c71b3a5
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - Name: Portal 5
+    Locked: 1
+    Icon:
+      m_AssetGUID: 08798118db42be54f80a1c28029d2f06
+      m_SubObjectName: 
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_EditorAssetChanged: 0
+    Entity:
+      m_AssetGUID: deb5ca55be516da4dbef4b7b53c32307
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - Name: Portal 6
+    Locked: 1
+    Icon:
+      m_AssetGUID: 63c8c0e72728ef24e8eb1fdddeaac508
+      m_SubObjectName: 
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_EditorAssetChanged: 0
+    Entity:
+      m_AssetGUID: 11d9c1a370c5c214ca2b2096d065e6f0
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - Name: Portal 7
+    Locked: 1
+    Icon:
+      m_AssetGUID: fd4bd2bd3382dc6478bd70d7cbbedc2b
+      m_SubObjectName: 
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_EditorAssetChanged: 0
+    Entity:
+      m_AssetGUID: 93b4e60a2dc5d0b498e4059073111add
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - Name: Portal 8
+    Locked: 1
+    Icon:
+      m_AssetGUID: e03ed228992838041b38fa59f819d7f6
+      m_SubObjectName: 
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_EditorAssetChanged: 0
+    Entity:
+      m_AssetGUID: 9067a9dd76c4da44a85fb6a888406093
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - Name: Portal 9
+    Locked: 1
+    Icon:
+      m_AssetGUID: 8e9c5294855bba140b6b7aa7a6f337a3
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    Entity:
+      m_AssetGUID: 8e992f0722ebb2e4e976ac663d2e9056
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - Name: Portal 10
+    Locked: 1
+    Icon:
+      m_AssetGUID: 6fc5b6492b48bec4785ff87e6b1208e3
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    Entity:
+      m_AssetGUID: d16bef93d6a137d4389749dccae97d25
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - Name: Portal 11
+    Locked: 1
+    Icon:
+      m_AssetGUID: 16498455751c02744ba08ac9b294b235
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    Entity:
+      m_AssetGUID: dcaaf13db8147bf41bec73fecc703247
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - Name: Portal 12
+    Locked: 1
+    Icon:
+      m_AssetGUID: 1be0a8ac64b7928419713a202921d699
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    Entity:
+      m_AssetGUID: 35749b1f85f00df43a2b813d6edc1adf
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - Name: Portal 13
+    Locked: 1
+    Icon:
+      m_AssetGUID: c22327845c2228143b0d75756d92bcb1
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    Entity:
+      m_AssetGUID: c82f762d7b644134692d8b6b381269d6
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - Name: Portal 14
+    Locked: 1
+    Icon:
+      m_AssetGUID: b4e478f9f8b798847b7cec829103c673
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    Entity:
+      m_AssetGUID: 293bb61b03fef1e4591becf1f338b977
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - Name: Portal 15
+    Locked: 1
+    Icon:
+      m_AssetGUID: ea3fa82d8022ae94589bb477637a01f9
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    Entity:
+      m_AssetGUID: 6aadd9c44cfc17c4a9daa0c59f3e9b5c
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - Name: Portal 16
+    Locked: 1
+    Icon:
+      m_AssetGUID: bcb4b731b3231a74ca5889cc94d5cec9
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    Entity:
+      m_AssetGUID: 894492ce99cedb247afbf657859e0bae
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - Name: Portal 17
+    Locked: 1
+    Icon:
+      m_AssetGUID: 93a4d6f4dc6f93e4996e34e6fc3957ca
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    Entity:
+      m_AssetGUID: 65e65b3c18fa23b4c8688563295dc79d
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0

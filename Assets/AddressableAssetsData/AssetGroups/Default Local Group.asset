@@ -1,0 +1,665 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 4901173495466c94d985062ff485c2bd
+  m_SerializeEntries:
+  - m_GUID: d3f804d79a2316d48b8b8a302edc114a
+    m_Address: Level_Base
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b518a27a614605047b0db31d0bf96f8f
+    m_Address: _Barrel Red
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 323af2ede14fced4686b7253d891cc3a
+    m_Address: _Crane
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4bbfc9cf302e49442b154584a2a5b84f
+    m_Address: _Crate Red
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e7a8d6a1a34485442a2390808b2047a3
+    m_Address: Barrel Border Yellow
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c96b1a4e0d878c44bb200cf82ba2539f
+    m_Address: Barrel Red
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 95466b70e7f09de4291d015032dc65fd
+    m_Address: Crane
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1b9e07b2c6a05db4ab1cf39e00a8571c
+    m_Address: Crate Red Piece
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2f55da53f14f4784e919479c3bbb30c2
+    m_Address: Crate Red
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7ea58575163378d4f85695da137df392
+    m_Address: Model
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b899b6dad86413c4fa96653054262436
+    m_Address: robot_lp_rig@Dwarf Walk
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e8abda8597eafda40ab3b1157e722a75
+    m_Address: robot_lp_rig@Idle
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1b57b29b61ffafe43af397f8c4d0aecc
+    m_Address: robot_lp_rig@Punching
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ce50412eda976d041a4fd7bf46d8feb5
+    m_Address: robot_lp_rig
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f6ce39f7cf5788047aa637110fa7ebe1
+    m_Address: cfxr particle_electric_arc_2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a78b06c58d03f5d4fbb74ba21020241e
+    m_Address: cfxr ring mesh
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 714e760b98304b44292e04841e05f258
+    m_Address: CFXR Particle Glow
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e198026df304af84a85675be636192ea
+    m_Address: CFXR Particle Ubershader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8d244b42458199344aaea0c6c77cbb90
+    m_Address: cfxr proc glow soft add
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b33cdc46c2218a1478cc45e3144cd2a7
+    m_Address: cfxr ring electric
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0aed4f47f3bcce64b83be8b64904bab4
+    m_Address: cfxr electric sparks hdr ab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3dda44a7d9cec71439b5b8e20fcbccfb
+    m_Address: CFXR Particle Procedural Ring
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 90641168f18ed794b9d271029cb78069
+    m_Address: cfxr electric arcs fade x4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1d245859d55c51b4c8a708d3d521f0c0
+    m_Address: cfxr electric small anim 4x2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 63106879cfd3c96478c2feec3fcb4c4a
+    m_Address: cfxr proc ring electric hdr ab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b41c12b9e8d21c442affcda9d5c050f7
+    m_Address: cfxr electric small anim 4x2 hdr
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3cc6081aa8e628d49bc8c5fcbc8d6a9f
+    m_Address: cfxr electric spark
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 113eb05ea9ee52b42932e7dc68b693cf
+    m_Address: cfxr electric arcs x4 hdr ab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9a026437645419b4b86bb36b05812a9c
+    m_Address: ExplosionRoundBlue
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e9459def1a517a24ba482f9e639df7ff
+    m_Address: CFXR Electric Explosion
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d7c03274686d81342b51ce0f21ac8215
+    m_Address: explosion_spritesheet_3x3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 774918f4bc1281e4c999780b6ff8cb3f
+    m_Address: EnemyEffectsPreset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 475f6ff71f9b21a4bb2cb3bda7f812a7
+    m_Address: nova_6x3_spritesheet
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e7912d15146fcf145afaaedec646b781
+    m_Address: explosion_spritesheet_3x3_AB
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 150aee38b5d848b42b75593618992bb7
+    m_Address: circle_AB
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d386c5d9fb941e845b73fe6da5491ef2
+    m_Address: cloud_2x2_default_AB
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ea696a4cf4fe1924796b308e4791aaf7
+    m_Address: nova_6x3_spritesheet_ADD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 155f67fd8750f8e4e83c8efb1731f3a0
+    m_Address: circle
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d85423bf14769174bae27b8e089c0882
+    m_Address: cloud_2x2_hard_softshadow
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0724d0ba9916c794d9297cbcfb7f3e86
+    m_Address: Player
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ac6e19e68fb4b0a4985ee3cd69fb8bc8
+    m_Address: Platform_Finish
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5016c8e57977ca447b2846b6cc183c07
+    m_Address: _Platform 2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5c21c3d09f8b2f34d94842403fec9d7d
+    m_Address: _Platform 1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 89dc5e49c03b9974ab0c241ef6be9f5b
+    m_Address: _Platform 3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6459d8e1a3989f74db6a90f05f0949ca
+    m_Address: _Platform_0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 94dbcf0468c99a44da97922070bbbbc9
+    m_Address: _Platform 5
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4a91c53dadc4ba84ca86a321837d6f5d
+    m_Address: _Platform 6
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: da123cdfd24f2de48a961d7b697b94ea
+    m_Address: _Platform 7
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3a0dbe2297d938a49b9c3e710314c492
+    m_Address: _Platform 4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d2e6f3e9c45e4d94d9da4018a1c2acf8
+    m_Address: _Platform 8
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fb70d18a0ae87fb4a815fff295e7c5cc
+    m_Address: Chckers
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 88b41a8c1712b2441b15ba3c5017a009
+    m_Address: Platform 1 Left
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9977e7257c1cc4c458a2c3c65e30ebf8
+    m_Address: Platform 1 Right
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ee825c9a961e84a46b4109d57858b7fb
+    m_Address: Platform Collider
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7a5ed8d109483da42ba3e45d71c5ed15
+    m_Address: Platform Floor Left
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 63e39fecf52e67443ab8e18bacf76778
+    m_Address: Platform Floor Right
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1835db054ae2bb043b1c51d61f8c0de3
+    m_Address: Platform Floor 1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7b4c6a2c6a51a0448a690b4b69fc684b
+    m_Address: Platform Floor 2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c5df8e9ce42fb28499607a8cff822f59
+    m_Address: Platform Border
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 01ac162ac9d474545ac2c6f407072995
+    m_Address: Platform Side
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d97f76d65782bc54d8866ad1c8f5a745
+    m_Address: Platform Floor 5
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: da9f00c0a3c724f4b8eb6c84a899a141
+    m_Address: Platform Floor 3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e0d32f0075c162d48bf35f2c04bd6c61
+    m_Address: Platform Floor 4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 01f2a934d48b5554a8821aa43073ebaa
+    m_Address: Way Point
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: df4afccabf3812f4eb84570337f5bcd3
+    m_Address: cfxr electric arcs fade x4 hdr ab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5e6ca8f19188f064ebdcc1a69545d8f4
+    m_Address: cfxr electric arcs x4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 10ea3a33d2b5d374f932006c6ecd8fe5
+    m_Address: skp_front_default
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f49e4975740340d4d87dbeeb78f0a454
+    m_Address: crate_0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 66bbdff9c2a005f41a649da3fb5f8417
+    m_Address: Crate_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7a0997acb756bc04c8bd749effe0d5b9
+    m_Address: Crate1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2aaf8ccc85fa9244aa509de861269dfd
+    m_Address: Crate_frags
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ef4a033d52d54634e93ed4076380cef6
+    m_Address: blend-32
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: eb630c9d183a1d74ba2146c9be4aee86
+    m_Address: Material
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e12ad4e2544820b48b4ccbc52fba7f0a
+    m_Address: Aqua
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d1acd8258e8d8f645ad1e16a7cf2e310
+    m_Address: AquaDesign1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b2290b0a8e6b1da49afc3dd22d1b374b
+    m_Address: 881154fa9033ec35ca00ff78a723ffaf
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a314211b18ddd5440be94e4c4c2ae41e
+    m_Address: GemStone
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 52b134edd9354acb9b1ffd479af85f48
+    m_Address: MinimalistMetaPass
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 216baab372734d21aadd9a8a375cf8d2
+    m_Address: Minimalist Standard SRP Batched
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ae39b04363044ffc9c3775972916d2bd
+    m_Address: MinimalistInput
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ea66a268381c48cd868b41dbb7c47479
+    m_Address: MinimalistInputSrpBatched
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0fd2b87ca9484b37891802426ff7fb94
+    m_Address: MinimalistShadowCasterPass
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0f7474f75f335a9449dc883ee81d7bd5
+    m_Address: Minimalist
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: df4dbdb8ff9d41d39cbc9d4b0e432462
+    m_Address: MinimalistDepthOnlyPass
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7f50fceb93f720749abcc8010bdebf2b
+    m_Address: SteelLadder A
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b544a1ccfec9a2543b3e4a999c578497
+    m_Address: Free_SteelLadder
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2b4ca90775e9a934d8015ee44a0a02ff
+    m_Address: IconFaArrowAltToBottom
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8e3bdf311c0698b4485cbe91ece46bab
+    m_Address: character_01_fbx (202162485458633)
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e653836c30661fe419b8992e230ca189
+    m_Address: Glow01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 75c822b01a637d547abc69e6f1f590b4
+    m_Address: Glow01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 909a245172e987b429ea32e22c65512e
+    m_Address: wave3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7d02299296a2a9843981fe2199b208f1
+    m_Address: wave3_ADD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 32996a94ef972d242bff6d941915b21a
+    m_Address: ShopPreviewPrefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 46c46885d5e9e194ba96e80d167e7a05
+    m_Address: PolySolidGlow
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1c62d9feb9569b44c8ed7a2f35c2abf9
+    m_Address: SpriteGlow
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e6b414e76227dd24e86e77131f4fe270
+    m_Address: SpriteLine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d0f04f68279b2ae4eb74da61364f4c0c
+    m_Address: PolySprite_ADD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2f3f789aad8546a488298feff43c3082
+    m_Address: SpriteGlow
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 59c2d0c41470f7341a86a606de11713f
+    m_Address: Lightning10bcg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2ac0fd9fa7d384047a598dbfb7c2f044
+    m_Address: Lightning11cg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a3ac268ca3cacba4fbd39fdbef21ff67
+    m_Address: Lightning11
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 04a40b50e9e63ed43af8af28f2ba4f86
+    m_Address: Noise28
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 12b56d0b81e80e748b8129a9c1a582d9
+    m_Address: lightning_spritesheet_3x3_ADD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2e1e6bccba87a3945b5e918a91f1616f
+    m_Address: lightning_improved_3x3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: be228499b18f1344caf9d8104b8bcd99
+    m_Address: LitSurface
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 52e9eeab7c6efa34ca39b2367914d107
+    m_Address: soft_fire_3x3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bd05d78fbabebd74c91b8f02df6e54c9
+    m_Address: soft_fire_3x3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1e76f4ccea9465a47acb43012b7711a9
+    m_Address: smokecurly2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3b552e3e60fe21d48bd4a9fb7ccb940f
+    m_Address: smokecurly2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: de9ee4d95b95f284cb6b32ecfe7e100d
+    m_Address: Noise69bcg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3584f2bf4afb5284d91edb6a29126e62
+    m_Address: Noise69
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5c03bc4b80b50384a9904843f3769487
+    m_Address: Trail6
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dd93ece84d407cd44931653f592c0cb4
+    m_Address: Noise29
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4e44f5d750bab88469804b6c248843cc
+    m_Address: PolyIce
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4cad1959e44286842b02291790bb6793
+    m_Address: PolySolidIntense
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cc3a4b86baeeb7846a5830b7f09fb9bf
+    m_Address: Snow5bcg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 36699d5f609e9ee4db33063ed634778f
+    m_Address: Snow5
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a99004aab03e1634ba549f9f9b710278
+    m_Address: Trails76bcg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 114a25aa9c17e9146bf30a76e159d007
+    m_Address: Trail76
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3f1d4fadb37c37e4488860109d7dce4b
+    m_Address: Noise34
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: aee7f230a05bc8644854344e7c55f328
+    m_Address: Glow01AlphaBlend
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 35b072e7a7dfe0f429bf5123cfc9a433
+    m_Address: RingAdditive
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a4280d58393322842afb10bcbcfc2a83
+    m_Address: Ring
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0dba7f4bcc17ba64a8acc762f75a6050
+    m_Address: Circle64px Stroke5px
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cff91a31c508f2e48a15376fb0792142
+    m_Address: SteelLadder B
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3a5d1e57f75f24f47816f65644dab357
+    m_Address: SteelLadder_B_Stainless
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 94a9aa8a94e5b1b4d8c777819f86eb44
+    m_Address: DIntense
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b68b99c2e57cef4419465c63c527201b
+    m_Address: Blend_CenterGlow
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bd6af5d577c618947b73aa60db554e51
+    m_Address: Add_CenterGlow
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8d08796b1c2c696408f8d6d41936cd0d
+    m_Address: Lightning10
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 72dd5e8c0f2347547bcfb13c37d84882
+    m_Address: RT
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: aaaeebe90a6afb84588105bfe8b485c6
+    m_Address: BlueCrystal09
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dded9448fd3136f4fa24fb4922f82991
+    m_Address: GemStone02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: faeb88c246231cb4aafcb2bc5b5b0427
+    m_Address: PolygonLight
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f23d1cdf4b40737488ce8a40b040b22d
+    m_Address: PolySphereSmall
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c9b3eaae0aa575c4db6feb3ae6fea5a7
+    m_Address: QuadToCircle
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0191065febb0d584d8bc23b85663a44f
+    m_Address: PolyDiamond
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8e417de65e38c4644ad6f6dd202f04fd
+    m_Address: Custom
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c01c682c6d76fb442a17f44eaa405a83
+    m_Address: SmallCrystal_Blue
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c437e7b5d7c2a7d4dbfcf59338cd77a1
+    m_Address: BlueCrystal
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9a7a934fa63c7f9479e652635a83acd5
+    m_Address: SmallCrystal_N
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e9691d7f46453db468a2549e948e52d6
+    m_Address: GemStone_normals
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b8caefd966b20a94c867cdf870f84ad8
+    m_Address: Level 2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6798560d95a181144ae572e2b9f87127
+    m_Address: EnemyPrefabsPreset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ae6495da65d03484c90fd13a5a2cea38
+    m_Address: StickmanAthlete
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 87c542e46b3a97d4d9c92bc7c5d66866
+    m_Address: Level 1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 25408e61019817f4d8be85b26a5211f6
+    m_Address: Level 3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: be7fa9e37ce1772438d1b0c0722b12a0
+    m_Address: Level 9
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 432d31b304b16dc4dafe85a19b3b4386
+    m_Address: Level 5
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a3f4f994c1960f148b7ab4626438f6ca
+    m_Address: Level 6
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: abc678feac8b69c4b98e58a30ef5a6cd
+    m_Address: Level 7
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f0a7a65bd8b4a7940a2b2590e4e85fc5
+    m_Address: GrenadeExplosionFire
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9755b893cedb3bb4097c647de5d6eb85
+    m_Address: Level 8
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f96a77acec6f8c54fabe5b4df82ef69a
+    m_Address: Level 4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 623a56473539630438768866e74ee12d
+    m_Address: Level 10
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e7cbe1f5c41eaf5488d1a6d7e9e264d6
+    m_Address: Level 11
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9cf28f5c3d6c95e478a34f9f6a1e701c
+    m_Address: Level 12
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 24dafca66f469c448990c6339dfc541e
+    m_Address: Level 13
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 31e81b65405caee4188f74ffff09f145
+    m_Address: Level 14
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 913e6bc902f7e764c9aa902207c909c8
+    m_Address: Level 15
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 24170a9f422383f49b7df377c786e792, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: a73d3c792bf22594e8a657984e5256b7, type: 2}
+    - {fileID: 11400000, guid: 0973b893b78201b42b360d69d637137f, type: 2}

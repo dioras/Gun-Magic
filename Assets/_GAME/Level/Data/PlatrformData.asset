@@ -1,0 +1,332 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd30b8e8f22823e47ba289552e378afe, type: 3}
+  m_Name: PlatrformData
+  m_EditorClassIdentifier: 
+  PlatformPrefabDatas:
+  - VisibleName: 
+    Prefab: {fileID: 8401220594093117491, guid: 6459d8e1a3989f74db6a90f05f0949ca,
+      type: 3}
+    LocalPosition: {x: 0, y: 0, z: 0}
+    LocalRotation: {x: 0, y: 0, z: 0}
+    SetSelected: 0
+  - VisibleName: 
+    Prefab: {fileID: 8401220594093117491, guid: 5c21c3d09f8b2f34d94842403fec9d7d,
+      type: 3}
+    LocalPosition: {x: 0, y: 0, z: 0}
+    LocalRotation: {x: 0, y: 0, z: 0}
+    SetSelected: 0
+  - VisibleName: 
+    Prefab: {fileID: 8401220594093117491, guid: 5016c8e57977ca447b2846b6cc183c07,
+      type: 3}
+    LocalPosition: {x: 0, y: 0, z: 0}
+    LocalRotation: {x: 0, y: 0, z: 0}
+    SetSelected: 0
+  - VisibleName: 
+    Prefab: {fileID: 8401220594093117491, guid: 89dc5e49c03b9974ab0c241ef6be9f5b,
+      type: 3}
+    LocalPosition: {x: 0, y: 0, z: 0}
+    LocalRotation: {x: 0, y: 0, z: 0}
+    SetSelected: 0
+  - VisibleName: 
+    Prefab: {fileID: 8214648950555893578, guid: 94dbcf0468c99a44da97922070bbbbc9,
+      type: 3}
+    LocalPosition: {x: 0, y: 0, z: 0}
+    LocalRotation: {x: 0, y: 0, z: 0}
+    SetSelected: 0
+  - VisibleName: 
+    Prefab: {fileID: 8214648950555893578, guid: 4a91c53dadc4ba84ca86a321837d6f5d,
+      type: 3}
+    LocalPosition: {x: 0, y: 0, z: 0}
+    LocalRotation: {x: 0, y: 0, z: 0}
+    SetSelected: 0
+  - VisibleName: 
+    Prefab: {fileID: 8214648950555893578, guid: da123cdfd24f2de48a961d7b697b94ea,
+      type: 3}
+    LocalPosition: {x: 0, y: 0, z: 0}
+    LocalRotation: {x: 0, y: 0, z: 0}
+    SetSelected: 0
+  - VisibleName: 
+    Prefab: {fileID: 8401220594093117491, guid: 3a0dbe2297d938a49b9c3e710314c492,
+      type: 3}
+    LocalPosition: {x: 0, y: 0, z: 0}
+    LocalRotation: {x: 0, y: 0, z: 0}
+    SetSelected: 0
+  - VisibleName: 
+    Prefab: {fileID: 8401220594093117491, guid: d2e6f3e9c45e4d94d9da4018a1c2acf8,
+      type: 3}
+    LocalPosition: {x: 0, y: 0, z: 0}
+    LocalRotation: {x: 0, y: 0, z: 0}
+    SetSelected: 0
+  PlatformBuildingPrefabDatas:
+  - VisibleName: Crane Left
+    Prefab: {fileID: 7325605083030833614, guid: 323af2ede14fced4686b7253d891cc3a,
+      type: 3}
+    LocalPosition: {x: -4, y: 0, z: 14}
+    LocalRotation: {x: 0, y: 180, z: 0}
+    SetSelected: 0
+  - VisibleName: Crane Right
+    Prefab: {fileID: 7325605083030833614, guid: 323af2ede14fced4686b7253d891cc3a,
+      type: 3}
+    LocalPosition: {x: 4, y: 0, z: 14}
+    LocalRotation: {x: 0, y: 0, z: 0}
+    SetSelected: 0
+  - VisibleName: Container Left
+    Prefab: {fileID: 1531899856099110696, guid: aa594418fd70c634da121f316a859b64,
+      type: 3}
+    LocalPosition: {x: -7, y: 0, z: 14}
+    LocalRotation: {x: 0, y: 0, z: 0}
+    SetSelected: 0
+  - VisibleName: Container Right
+    Prefab: {fileID: 1531899856099110696, guid: aa594418fd70c634da121f316a859b64,
+      type: 3}
+    LocalPosition: {x: 7, y: 0, z: 14}
+    LocalRotation: {x: 0, y: 0, z: 0}
+    SetSelected: 0
+  - VisibleName: Container Double Left
+    Prefab: {fileID: 1531899856099110696, guid: ba0da6a1be2303e448fc43f02e3e1692,
+      type: 3}
+    LocalPosition: {x: -6, y: 0, z: 14}
+    LocalRotation: {x: 0, y: 11.5, z: 0}
+    SetSelected: 0
+  - VisibleName: Container Double Right
+    Prefab: {fileID: 1531899856099110696, guid: ba0da6a1be2303e448fc43f02e3e1692,
+      type: 3}
+    LocalPosition: {x: 6, y: 0, z: 14}
+    LocalRotation: {x: 0, y: -11.5, z: 0}
+    SetSelected: 0
+  - VisibleName: Container Rope Left
+    Prefab: {fileID: 1531899856099110696, guid: c3ed06f6e4acf2743a76550e3351ccb7,
+      type: 3}
+    LocalPosition: {x: -4, y: 0, z: 14}
+    LocalRotation: {x: 0, y: 18.514, z: 0}
+    SetSelected: 0
+  - VisibleName: Container Rope Right
+    Prefab: {fileID: 1531899856099110696, guid: c3ed06f6e4acf2743a76550e3351ccb7,
+      type: 3}
+    LocalPosition: {x: 4, y: 0, z: 14}
+    LocalRotation: {x: 0, y: -18.514, z: 0}
+    SetSelected: 0
+  - VisibleName: Container Press Left
+    Prefab: {fileID: 1531899856099110696, guid: 56ecf0e3771239949bfb142498a2de05,
+      type: 3}
+    LocalPosition: {x: -4.5, y: 0, z: 14}
+    LocalRotation: {x: 0, y: 0, z: 0}
+    SetSelected: 0
+  - VisibleName: Container Press Right
+    Prefab: {fileID: 1531899856099110696, guid: 56ecf0e3771239949bfb142498a2de05,
+      type: 3}
+    LocalPosition: {x: 4.5, y: 0, z: 14}
+    LocalRotation: {x: 0, y: 0, z: 0}
+    SetSelected: 0
+  - VisibleName: 
+    Prefab: {fileID: 1482382433888905928, guid: c4f950e144df7854abd4682ffdfc1596,
+      type: 3}
+    LocalPosition: {x: 0, y: 0, z: 0}
+    LocalRotation: {x: 0, y: 20, z: 0}
+    SetSelected: 1
+  - VisibleName: 
+    Prefab: {fileID: 1482382433888905928, guid: cb160a521bb72674982b2be45e0fc9b2,
+      type: 3}
+    LocalPosition: {x: 0, y: 0, z: 0}
+    LocalRotation: {x: 0, y: 0, z: 0}
+    SetSelected: 1
+  - VisibleName: 
+    Prefab: {fileID: 1531899856099110696, guid: 5e535a3ad2d433d48a202e2f7f9f4185,
+      type: 3}
+    LocalPosition: {x: 0, y: 0, z: 0}
+    LocalRotation: {x: 0, y: 0, z: 0}
+    SetSelected: 1
+  - VisibleName: 
+    Prefab: {fileID: 1531899856099110696, guid: f3c53fa98a7722f40aa4ab6ec3f08e80,
+      type: 3}
+    LocalPosition: {x: 0, y: 0, z: 0}
+    LocalRotation: {x: 0, y: 0, z: 0}
+    SetSelected: 1
+  - VisibleName: Container Big Vertical
+    Prefab: {fileID: 1531899856099110696, guid: f3c53fa98a7722f40aa4ab6ec3f08e80,
+      type: 3}
+    LocalPosition: {x: 0, y: 4.68, z: 0}
+    LocalRotation: {x: 90, y: 0, z: 0}
+    SetSelected: 1
+  - VisibleName: 
+    Prefab: {fileID: 1531899856099110696, guid: 8c9e13e217a44a042b1434c77de70222,
+      type: 3}
+    LocalPosition: {x: 0, y: 0, z: 0}
+    LocalRotation: {x: 0, y: 0, z: 0}
+    SetSelected: 1
+  - VisibleName: 
+    Prefab: {fileID: 1531899856099110696, guid: f0e425ee0bc812440b576c3c7d5c745c,
+      type: 3}
+    LocalPosition: {x: 0, y: 0, z: 0}
+    LocalRotation: {x: 0, y: 0, z: 0}
+    SetSelected: 1
+  - VisibleName: 
+    Prefab: {fileID: 1531899856099110696, guid: 3fc215017c3cd954992e0758322b7327,
+      type: 3}
+    LocalPosition: {x: 0, y: 0, z: 0}
+    LocalRotation: {x: 0, y: 0, z: 0}
+    SetSelected: 1
+  - VisibleName: 
+    Prefab: {fileID: 3142615615661802575, guid: 5eb1ff3f11ef7da42ab40e40ecd66e8b,
+      type: 3}
+    LocalPosition: {x: 0, y: 0, z: 0}
+    LocalRotation: {x: 0, y: 0, z: 0}
+    SetSelected: 0
+  PlatformPropPrefabDatas:
+  - VisibleName: 
+    Prefab: {fileID: 6072056815285566019, guid: 4bbfc9cf302e49442b154584a2a5b84f,
+      type: 3}
+    LocalPosition: {x: 0, y: 0, z: 0}
+    LocalRotation: {x: 0, y: 0, z: 0}
+    SetSelected: 1
+  - VisibleName: 
+    Prefab: {fileID: 5511341044144166738, guid: b518a27a614605047b0db31d0bf96f8f,
+      type: 3}
+    LocalPosition: {x: 0, y: 0, z: 0}
+    LocalRotation: {x: 0, y: 0, z: 0}
+    SetSelected: 1
+  - VisibleName: 
+    Prefab: {fileID: 6121401285802738893, guid: 681c8d90a5238fc4f933c97e46cbe31b,
+      type: 3}
+    LocalPosition: {x: 0, y: 0, z: 0}
+    LocalRotation: {x: 0, y: 0, z: 0}
+    SetSelected: 1
+  - VisibleName: 
+    Prefab: {fileID: 7373045567912341906, guid: 4a72233de47bef941b3493501e6e6cda,
+      type: 3}
+    LocalPosition: {x: 0, y: 0, z: 0}
+    LocalRotation: {x: 0, y: 0, z: 0}
+    SetSelected: 1
+  - VisibleName: 
+    Prefab: {fileID: 3296553495324368022, guid: 0e12b575eff178149b94a74c984f1a2d,
+      type: 3}
+    LocalPosition: {x: 1.5, y: 0, z: 13.5}
+    LocalRotation: {x: 0, y: 0, z: 0}
+    SetSelected: 1
+  - VisibleName: Fan Rigth UP
+    Prefab: {fileID: 5196912187078623954, guid: ef0af824850cae941be20c5157867512,
+      type: 3}
+    LocalPosition: {x: 2, y: 0, z: 11}
+    LocalRotation: {x: 0, y: 0, z: 0}
+    SetSelected: 0
+  - VisibleName: Fan Left UP
+    Prefab: {fileID: 5196912187078623954, guid: ef0af824850cae941be20c5157867512,
+      type: 3}
+    LocalPosition: {x: -7, y: 0, z: 11}
+    LocalRotation: {x: 0, y: 0, z: 0}
+    SetSelected: 0
+  - VisibleName: Fan Rigth MID
+    Prefab: {fileID: 5196912187078623954, guid: ef0af824850cae941be20c5157867512,
+      type: 3}
+    LocalPosition: {x: 2, y: 0, z: 9}
+    LocalRotation: {x: 0, y: 0, z: 0}
+    SetSelected: 0
+  - VisibleName: Fan Left MID
+    Prefab: {fileID: 5196912187078623954, guid: ef0af824850cae941be20c5157867512,
+      type: 3}
+    LocalPosition: {x: -7, y: 0, z: 9}
+    LocalRotation: {x: 0, y: 0, z: 0}
+    SetSelected: 0
+  - VisibleName: Pool Rigth UP
+    Prefab: {fileID: 8757557889362160900, guid: 43d1d5cd1f615144b953caf89f0e8416,
+      type: 3}
+    LocalPosition: {x: 2, y: 0, z: 11}
+    LocalRotation: {x: 0, y: 0, z: 0}
+    SetSelected: 0
+  - VisibleName: Pool Left UP
+    Prefab: {fileID: 8757557889362160900, guid: 43d1d5cd1f615144b953caf89f0e8416,
+      type: 3}
+    LocalPosition: {x: -7, y: 0, z: 11}
+    LocalRotation: {x: 0, y: 0, z: 0}
+    SetSelected: 0
+  - VisibleName: Pool Rigth MID
+    Prefab: {fileID: 8757557889362160900, guid: 43d1d5cd1f615144b953caf89f0e8416,
+      type: 3}
+    LocalPosition: {x: 2, y: 0, z: 9}
+    LocalRotation: {x: 0, y: 0, z: 0}
+    SetSelected: 0
+  - VisibleName: Pool Left MID
+    Prefab: {fileID: 8757557889362160900, guid: 43d1d5cd1f615144b953caf89f0e8416,
+      type: 3}
+    LocalPosition: {x: -7, y: 0, z: 9}
+    LocalRotation: {x: 0, y: 0, z: 0}
+    SetSelected: 0
+  EnemyPrefabDatas:
+  - VisibleName: 
+    Prefab: {fileID: 8941689894136569996, guid: 5980b8961e5bb1b4883a60ec8e7ed704,
+      type: 3}
+    LocalPosition: {x: 0, y: 0, z: 0}
+    LocalRotation: {x: 0, y: 180, z: 0}
+    SetSelected: 0
+  - VisibleName: 
+    Prefab: {fileID: 6327674924934383935, guid: 1781cb0969f3d484ca52ef30f739b33f,
+      type: 3}
+    LocalPosition: {x: 0, y: 0, z: 0}
+    LocalRotation: {x: 0, y: 180, z: 0}
+    SetSelected: 0
+  - VisibleName: 
+    Prefab: {fileID: 4771933919254030389, guid: f5c8f08e10ca4aa4c8a77b91e0bdbe50,
+      type: 3}
+    LocalPosition: {x: 0, y: 0, z: 0}
+    LocalRotation: {x: 0, y: 180, z: 0}
+    SetSelected: 0
+  - VisibleName: 
+    Prefab: {fileID: 8975393275926164603, guid: f846db3edb2375340b9146a4d595ba63,
+      type: 3}
+    LocalPosition: {x: 0, y: 0, z: 0}
+    LocalRotation: {x: 0, y: 180, z: 0}
+    SetSelected: 1
+  - VisibleName: 
+    Prefab: {fileID: 2091819495871483509, guid: 8d68d5b110600a043b0b8c0ba2db076d,
+      type: 3}
+    LocalPosition: {x: 0, y: 0, z: 0}
+    LocalRotation: {x: 0, y: 180, z: 0}
+    SetSelected: 1
+  EnemyAlternativePrefabDatas:
+  - VisibleName: 
+    Prefab: {fileID: 6841973162611709174, guid: 1d6a5b68b04fb5540b6c9918a17e573e,
+      type: 3}
+    LocalPosition: {x: 0, y: 2, z: 0}
+    LocalRotation: {x: 0, y: 180, z: 0}
+    SetSelected: 1
+  - VisibleName: 
+    Prefab: {fileID: 5334143218033728071, guid: b60b4e4ff5573a749bee04a4daecd13f,
+      type: 3}
+    LocalPosition: {x: 0, y: 0, z: 14.75}
+    LocalRotation: {x: 0, y: 180, z: 0}
+    SetSelected: 1
+  - VisibleName: Spider LEFT
+    Prefab: {fileID: 2701238057340386805, guid: 8884a0fc5b5ef7f4abf495d974ec631e,
+      type: 3}
+    LocalPosition: {x: -4.61, y: 6.764, z: 17.15}
+    LocalRotation: {x: 90, y: 180, z: 66.184}
+    SetSelected: 1
+  - VisibleName: Spider MID
+    Prefab: {fileID: 1286702411964489512, guid: 447e7cd778ab4f74c97ba0db90abce00,
+      type: 3}
+    LocalPosition: {x: 0, y: 8.63, z: 19.023}
+    LocalRotation: {x: 90, y: 180, z: 0}
+    SetSelected: 1
+  - VisibleName: Spider RIGHT
+    Prefab: {fileID: 3023997350691364604, guid: fe6d601dc6216954db374eadb6719090,
+      type: 3}
+    LocalPosition: {x: 3.91, y: 2.92, z: 17.569}
+    LocalRotation: {x: 90, y: 180, z: -64.78699}
+    SetSelected: 1
+  EnemyLocalPositions:
+  - {x: 0, y: 0, z: 11}
+  - {x: 0, y: 0, z: 13}
+  - {x: 0, y: 0, z: 15}
+  - {x: 0, y: 0, z: 17}
+  - {x: 0, y: 0, z: 19}
+  PosX: 1.7

@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa3521eda971338428e25f6cd4dfb515, type: 3}
+  m_Name: WeaponSettings
+  m_EditorClassIdentifier: 
+  ArmedWeaponPosition: {x: 0.262, y: -0.501, z: 1.153}
+  ArmedWeaponRotation: {x: 1.994, y: 0.441, z: 3.153}
+  ArmedWeaponScale: 0.3
+  LevelWeaponOffset: {x: 0, y: 0, z: -0.439}
+  BulletLayer:
+    serializedVersion: 2
+    m_Bits: 8192
+  BalloonCrossbowSettings:
+    ArrowPrefab: {fileID: 3385222483681339188, guid: fb5655021d9ead44881e96d8050061f4,
+      type: 3}
+    FlyingBalloonPrefab: {fileID: 516172651, guid: f7ca6498dbe021f45ac61669cfa8467b,
+      type: 3}
+    ArrowSpeed: 33
+    LaunchedArrowScale: 0.14
+  FrostKeeperSettings:
+    IceSpherePrefab: {fileID: -8075267131497723695, guid: ea876b476a226534cbb5d46746851940,
+      type: 3}
+    SphereExplosionPrefab: {fileID: 6871591140270369165, guid: 717f589ede62be941920e7f1dc00fa5a,
+      type: 3}
+    IceSphereSpeed: 10
+    IceExplosionStrenght: 13
+  GravityGunSettings:
+    GravitySpherePrefab: {fileID: 8810495640698508395, guid: b06269987aee5a640a99ce497bc1db09,
+      type: 3}
+    GravitySphereSpeed: 13
+    ExplosionRadius: 6
+    ExploadingSphereScale: 1.8
+    ExplosionParticles: {fileID: 3093712575541809387, guid: 0523bb99aa1c3f44c9be49ec436bb4cd,
+      type: 3}
+    LevitationMinY: 2.4
+    LevitationMaxY: 4.1
+    LevitationDuration: 1.1
+    IntakeDuration: 0.25
+    FloatingAnimationsCount: 4
+    SphereImploadDelay: 0.25

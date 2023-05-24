@@ -1,0 +1,239 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b5344516de8410489d5dd5164a182e8, type: 3}
+  m_Name: ShopCollectionHandsTextures
+  m_EditorClassIdentifier: 
+  Id: 1
+  Label: Gloves
+  StartPrice: 1000
+  Increase: 200
+  ItemCountInCategory: 9
+  CategoryNames:
+  - Common
+  - Rare
+  Products:
+  - Name: Player_0
+    Locked: 0
+    Icon:
+      m_AssetGUID: 49aac1920e2af564fbf6eb430637db17
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    Entity:
+      m_AssetGUID: 043ce557fe085d54399cb18ff36d25c1
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - Name: Player_1
+    Locked: 1
+    Icon:
+      m_AssetGUID: a12cc30f9c4cf5d489b6b4360a3b78fc
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    Entity:
+      m_AssetGUID: b0c57c2151b6fe5478116e3fb90d9de0
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - Name: Player_2
+    Locked: 1
+    Icon:
+      m_AssetGUID: fb71bf2e599e5e74a99a02215310f510
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    Entity:
+      m_AssetGUID: 4f3fa68744b0c6e4698e8afee7df5e01
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - Name: Player_3
+    Locked: 1
+    Icon:
+      m_AssetGUID: e38f437e6330f0d4b8c6a25d48ea66f7
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    Entity:
+      m_AssetGUID: b1cec51de5095764c99ae4e9497cf5dc
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - Name: Player_4
+    Locked: 1
+    Icon:
+      m_AssetGUID: 8cc7810c10587114ab9e02ff2c414348
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    Entity:
+      m_AssetGUID: 5caf668cd48aedc4ea6ea9a684f8eb7b
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - Name: Player_5
+    Locked: 1
+    Icon:
+      m_AssetGUID: 280436013aba3d242bbca33d1eed30fd
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    Entity:
+      m_AssetGUID: dcefdb9ad27c1224793976aaa6edc297
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - Name: Player_6
+    Locked: 1
+    Icon:
+      m_AssetGUID: 4324d2eaf04a0c8458e44becd0d2b7d9
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    Entity:
+      m_AssetGUID: 6788c238114116c4ca90498d7b151a76
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - Name: Player_7
+    Locked: 1
+    Icon:
+      m_AssetGUID: c75667b3cba7d3b4783798ef3d25ea84
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    Entity:
+      m_AssetGUID: e287e8bfe5b4cf34c9262fd231e2637f
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - Name: Player_8
+    Locked: 1
+    Icon:
+      m_AssetGUID: 7dc9f6c000241d44d840b6a1cdb46fae
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    Entity:
+      m_AssetGUID: 6bcee63f7ed7d864689aea6e0e0b96c3
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - Name: Player_9
+    Locked: 1
+    Icon:
+      m_AssetGUID: d70ff3286342975459efcfe8dc83947e
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    Entity:
+      m_AssetGUID: bcacbddde389304488406464619f1055
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - Name: Player_10
+    Locked: 1
+    Icon:
+      m_AssetGUID: 22e77e11b27ad8d458ff2a0bdcd80a8e
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    Entity:
+      m_AssetGUID: b955d7162a71eac48b12783c75fd210a
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - Name: Player_11
+    Locked: 1
+    Icon:
+      m_AssetGUID: 5eb732477a5d5ca4a85394f3be245148
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    Entity:
+      m_AssetGUID: 937a76ba817b6e34eb54e083927e2711
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - Name: Player_12
+    Locked: 1
+    Icon:
+      m_AssetGUID: 01ae2c06db8e3424c8f225f3bdf069a0
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    Entity:
+      m_AssetGUID: 9b5286a100e873f4da9933366aa2893b
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - Name: Player_13
+    Locked: 1
+    Icon:
+      m_AssetGUID: c90dc6d176375734e9944e64c53df577
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    Entity:
+      m_AssetGUID: af2108e73fe30f647b894b4c1f88a02c
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - Name: Player_14
+    Locked: 1
+    Icon:
+      m_AssetGUID: a61f8cc7bc4a4e8418332d0e6ead1573
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    Entity:
+      m_AssetGUID: 2aba711e3ba3cc54d920e5fe41b3abed
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - Name: Player_15
+    Locked: 1
+    Icon:
+      m_AssetGUID: 2ca48294c1d698b4799e8365f0e31d86
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    Entity:
+      m_AssetGUID: ec19188e0b01a5f45a7e27adca1c3f0d
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - Name: Player_16
+    Locked: 1
+    Icon:
+      m_AssetGUID: 1089e65264dd0e84cac2d025c4a0b941
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    Entity:
+      m_AssetGUID: 2374e4dcfb1db974e9b60670db7d5556
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - Name: Player_17
+    Locked: 1
+    Icon:
+      m_AssetGUID: 3b90ca8dab70b75459709e8579cb36a7
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    Entity:
+      m_AssetGUID: 0b9978a5c6a59314186c095610d83775
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0

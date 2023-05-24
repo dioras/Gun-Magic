@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ca4887c77ffe34b97f9bda21d5f15e, type: 3}
+  m_Name: EnemySettings
+  m_EditorClassIdentifier: 
+  MoveSpeed: 1.4
+  StopDistance: 3
+  StopDistanceForDrone: 7
+  AnimationMoveKey: Walk
+  AnimationAttackKey: Attack
+  AnimationFallKey: Fall
+  AnimationThrowKey: Throw
+  DamagableLayer:
+    serializedVersion: 2
+    m_Bits: 1024
+  DestructableLayer:
+    serializedVersion: 2
+    m_Bits: 2048
+  GroundLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  EnemyLayer:
+    serializedVersion: 2
+    m_Bits: 512
+  WallLayer:
+    serializedVersion: 2
+    m_Bits: 131072
+  WaterLayer:
+    serializedVersion: 2
+    m_Bits: 16
+  DamagableLayerNumber: 10
+  EnemyPrefabsPreset: {fileID: 0}
+  EnemyEffectsPreset: {fileID: 0}
+  ColorOnDie: {r: 0.41509432, g: 0.40530434, b: 0.40530434, a: 1}

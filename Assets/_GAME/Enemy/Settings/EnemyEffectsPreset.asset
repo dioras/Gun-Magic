@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b90ecc5f2100e6a498a7688a49d2a2a3, type: 3}
+  m_Name: EnemyEffectsPreset
+  m_EditorClassIdentifier: 
+  ElectroEffect: {fileID: 1814315751473787961, guid: e9459def1a517a24ba482f9e639df7ff,
+    type: 3}
+  BoomEnemyEffect: {fileID: 3275194684460041132, guid: 9a026437645419b4b86bb36b05812a9c,
+    type: 3}

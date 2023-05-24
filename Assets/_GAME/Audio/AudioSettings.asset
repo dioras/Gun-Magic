@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24f58d181e51a7a4ba3021d2c65c133d, type: 3}
+  m_Name: AudioSettings
+  m_EditorClassIdentifier: 
+  trackFadeTime: 1
+  tracks: []
+  sounds:
+  - type: 1
+    clip: {fileID: 8300000, guid: 928dc90a5c50db34dabfed600c08535e, type: 3}
+    randomizePitch: 0
+  - type: 2
+    clip: {fileID: 8300000, guid: 871f9dde2be45e04a8c5940a88dfd966, type: 3}
+    randomizePitch: 0
+  - type: 3
+    clip: {fileID: 8300000, guid: c99c3dc5c99b20841b958a98a9320729, type: 3}
+    randomizePitch: 0
+  - type: 4
+    clip: {fileID: 8300000, guid: cf9367c05d91822458bb086f6e28d417, type: 3}
+    randomizePitch: 0
+  - type: 5
+    clip: {fileID: 8300000, guid: 4b7a4124f7b527646bd74b607f558200, type: 3}
+    randomizePitch: 0
+  - type: 6
+    clip: {fileID: 8300000, guid: cf9367c05d91822458bb086f6e28d417, type: 3}
+    randomizePitch: 0
+  - type: 7
+    clip: {fileID: 8300000, guid: 79a6857ff0e234545a7676fa369ba08a, type: 3}
+    randomizePitch: 0
+  - type: 8
+    clip: {fileID: 8300000, guid: 04ed4f1223cdccc478827275e0bf9cef, type: 3}
+    randomizePitch: 0
+  - type: 9
+    clip: {fileID: 8300000, guid: fe60774fa5023764fb11af7a080e09cf, type: 3}
+    randomizePitch: 0
+  - type: 10
+    clip: {fileID: 8300000, guid: 6bce389f2c3077e41a7bec017747b9f1, type: 3}
+    randomizePitch: 0
+  - type: 11
+    clip: {fileID: 8300000, guid: e391d6a2de84ad84296a6dc6095d9b84, type: 3}
+    randomizePitch: 0
+  - type: 12
+    clip: {fileID: 8300000, guid: cb5fae2608acbde4e9d703bb09e90656, type: 3}
+    randomizePitch: 0
+  - type: 13
+    clip: {fileID: 8300000, guid: 9e7893cca1a0cbb44a2454edd83d1455, type: 3}
+    randomizePitch: 0
+  - type: 14
+    clip: {fileID: 8300000, guid: b83a824f2b8f83b4394d3b371a504a41, type: 3}
+    randomizePitch: 0
+  - type: 15
+    clip: {fileID: 8300000, guid: 83b048346e53b524f90f358d28634565, type: 3}
+    randomizePitch: 0
+  - type: 17
+    clip: {fileID: 8300000, guid: 2a87979e25fabe147afee44a68dc1698, type: 3}
+    randomizePitch: 0
+  - type: 16
+    clip: {fileID: 8300000, guid: 8d74eb7eebec18e47b5dcf1cc26969c6, type: 3}
+    randomizePitch: 0
+  - type: 18
+    clip: {fileID: 8300000, guid: 841ead5ce9064424e8caf7d39095830f, type: 3}
+    randomizePitch: 0
+  - type: 19
+    clip: {fileID: 8300000, guid: 5fcb0f0a9cabe1c428e5521ecd35a482, type: 3}
+    randomizePitch: 0
+  - type: 20
+    clip: {fileID: 8300000, guid: 54b30abdf636d0f439aa101be0e69b91, type: 3}
+    randomizePitch: 0
