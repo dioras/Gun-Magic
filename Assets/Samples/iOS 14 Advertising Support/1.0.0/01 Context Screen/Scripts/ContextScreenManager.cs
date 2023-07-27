@@ -1,5 +1,7 @@
 ﻿using Unity.Advertisement.IosSupport.Components;
 using UnityEngine;
+using System.Collections;
+using UnityEngine.SceneManagement;
 
 namespace Unity.Advertisement.IosSupport.Samples
 {
@@ -15,23 +17,42 @@ namespace Unity.Advertisement.IosSupport.Samples
         /// </summary>
         public ContextScreenView contextScreenPrefab;
 
-        void Start()
-        {
+        void Start() {
 #if UNITY_IOS
+            Invoke(nameof(CheckAfterDelay), 1f);
+#else
+            Debug.Log("Unity iOS Support: App Tracking Transparency status not checked, because the platform is not iOS.");
+#endif
+            StartCoroutine(LoadNextScene());
+        }
+
+        private void CheckAfterDelay() {
             // check with iOS to see if the user has accepted or declined tracking
             var status = ATTrackingStatusBinding.GetAuthorizationTrackingStatus();
 
-            if (status == ATTrackingStatusBinding.AuthorizationTrackingStatus.NOT_DETERMINED)
-            {
+            if (status == ATTrackingStatusBinding.AuthorizationTrackingStatus.NOT_DETERMINED) {
                 var contextScreen = Instantiate(contextScreenPrefab).GetComponent<ContextScreenView>();
 
                 // after the Continue button is pressed, and the tracking request
                 // has been sent, automatically destroy the popup to conserve memory
-                contextScreen.sentTrackingAuthorizationRequest += () => Destroy(contextScreen.gameObject);
+                //contextScreen.sentTrackingAuthorizationRequest += () => Destroy(contextScreen.gameObject);
+                contextScreen.RequestAuthorizationTracking();
             }
-#else
-            Debug.Log("Unity iOS Support: App Tracking Transparency status not checked, because the platform is not iOS.");
-#endif
         }
-    }   
+
+
+        private IEnumerator LoadNextScene() {
+#if UNITY_IOS && !UNITY_EDITOR
+                var status = ATTrackingStatusBinding.GetAuthorizationTrackingStatus();
+
+                while (status == ATTrackingStatusBinding.AuthorizationTrackingStatus.NOT_DETERMINED)
+                {
+                    status = ATTrackingStatusBinding.GetAuthorizationTrackingStatus();
+                    yield return null;
+                }
+#endif
+            SceneManager.LoadScene(1);
+            yield return null;
+        }
+    }
 }

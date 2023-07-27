@@ -32,9 +32,5 @@ namespace Unity.Advertisement.IosSupport.Components
                              "but the current platform is not iOS.");
 #endif
         }
-        
-        private void Start(){
-            RequestAuthorizationTracking();
-        }
     }
 }

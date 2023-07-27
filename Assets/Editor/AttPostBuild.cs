@@ -20,6 +20,7 @@ public class AttPostBuild : MonoBehaviour
  
     // Implement a function to read and write values to the plist file:
     static void AddPListValues(string pathToXcode) {
+#if UNITY_IOS
         // Retrieve the plist file from the Xcode project directory:
         string plistPath = pathToXcode + "/Info.plist";
         PlistDocument plistObj = new PlistDocument();
@@ -36,5 +37,6 @@ public class AttPostBuild : MonoBehaviour
  
         // Save changes to the plist:
         File.WriteAllText(plistPath, plistObj.WriteToString());
+#endif
     }
 }
