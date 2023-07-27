@@ -84,7 +84,7 @@ namespace _GAME.LevelUIView
                 loadingScreen.IsFirstLoad = false;
 
                 loadingScreen.MainBGImage.color = loadingScreen.DefaultColor;
-                loadingScreen.Logo.SetActive(false);
+                //loadingScreen.Logo.SetActive(false);
 
                 loadingScreen.ProgreessBarBGImage.color = loadingScreen.ProgressBarBGColor;
                 loadingScreen.ProgressBarFillImage.color = loadingScreen.ProgressBarFillColor;
