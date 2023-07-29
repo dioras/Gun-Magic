@@ -325,34 +325,6 @@ MonoBehaviour:
     m_Address: GemStone
     m_ReadOnly: 0
     m_SerializedLabels: []
-  - m_GUID: 52b134edd9354acb9b1ffd479af85f48
-    m_Address: MinimalistMetaPass
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 216baab372734d21aadd9a8a375cf8d2
-    m_Address: Minimalist Standard SRP Batched
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: ae39b04363044ffc9c3775972916d2bd
-    m_Address: MinimalistInput
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: ea66a268381c48cd868b41dbb7c47479
-    m_Address: MinimalistInputSrpBatched
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 0fd2b87ca9484b37891802426ff7fb94
-    m_Address: MinimalistShadowCasterPass
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 0f7474f75f335a9449dc883ee81d7bd5
-    m_Address: Minimalist
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: df4dbdb8ff9d41d39cbc9d4b0e432462
-    m_Address: MinimalistDepthOnlyPass
-    m_ReadOnly: 0
-    m_SerializedLabels: []
   - m_GUID: 7f50fceb93f720749abcc8010bdebf2b
     m_Address: SteelLadder A
     m_ReadOnly: 0
